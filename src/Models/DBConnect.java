@@ -27,7 +27,7 @@ public class DBConnect {
 
             //4.loop over the results and add it to the array list
             while(resultSet.next()){
-                manufacturers.add(resultSet.getString("manufacturer"));
+                manufacturers.add(resultSet.getString("manufacturers"));
             }
         }
         catch(SQLException e){
